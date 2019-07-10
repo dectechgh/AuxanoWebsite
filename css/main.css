@@ -513,6 +513,7 @@ body {
 .servicesSection .overlay .exterior-nd-interior-grid h3 {
   font-size: 2rem;
   color: #f78e16;
+  padding-bottom: 1.3rem;
 }
 
 .servicesSection .overlay .exterior-nd-interior-grid .interiorHeader {
@@ -536,5 +537,15 @@ body {
   display: grid;
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
+}
+
+.servicesSection .overlay .interior-grid .fas {
+  color: #17A2B8;
+  font-size: 1.2rem;
+}
+
+.servicesSection .overlay .exterior-grid .fas {
+  color: #05e905;
+  font-size: 1.2rem;
 }
 /*# sourceMappingURL=main.css.map */

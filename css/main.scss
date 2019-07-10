@@ -534,6 +534,7 @@ h1{
     h3{
         font-size: 2rem;
         color:rgb(247, 142, 22);
+        padding-bottom: 1.3rem;
     }
     .interiorHeader{
 text-align: center;
@@ -554,8 +555,20 @@ ul{
 .interior-grid{
     display: grid;
     grid-template-columns: 50% 50%;
-
+    .fas{
+        color: #17A2B8;
+        font-size: 1.2rem;
+    }
 }
+
+.exterior-grid{
+    .fas{
+        color: rgb(5, 233, 5);
+        font-size: 1.2rem;
+    } 
+}
+
+
 
     }
 }
